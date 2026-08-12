@@ -71,8 +71,7 @@ members = ["fastmcp_slim", "fastmcp_remote"]
 
 [tool.uv]
 default-groups = ["dev"]
-exclude-newer = "1 week"
-exclude-newer-package = { prefab-ui = false }
+exclude-newer = "2026-08-04T00:00:00Z"
 
 [dependency-groups]
 dev = [
