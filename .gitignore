@@ -52,10 +52,6 @@ htmlcov/
 # Node (for any JS tooling)
 node_modules/
 
-# Claude Code
-CLAUDE.md
-.claude/
-
 # MCP config (machine-specific paths)
 .mcp.json
 
@@ -71,3 +67,6 @@ unraid-mcp/
 # git repo (origin=dwpdkp/zabbix-mcp, upstream=mhajder/zabbix-mcp) so it can
 # track upstream and be shared/PR'd independently
 zabbix-mcp/
+
+# Claude Code local settings (not the shared CLAUDE.md itself)
+.claude/settings.local.json
