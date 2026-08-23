@@ -4,12 +4,18 @@ This file provides guidance to Claude Code when working with code in this reposi
 
 ## Repository Overview
 
-This repository contains multiple Model Context Protocol (MCP) server projects for AI assistant tool integration:
+This repository contains multiple Model Context Protocol (MCP) server projects for AI assistant tool integration. See [README.md](./README.md) for the full table (origin, security model) of every server below; this list was last synced to actual contents 2026-08-23:
 
-- **fastmcp/** - Comprehensive Python framework for building MCP servers and clients (Python ≥3.10)
+- **proxmox-mcp/** - Proxmox VE management: nodes, VMs/LXCs, storage, snapshots, cloud-init, exec (in-house)
+- **unifi-mcp/** - UniFi local controller: clients, devices, firewall policies, port forwards, WLANs, VLANs (in-house)
+- **zabbix-mcp/** - Zabbix monitoring: hosts, templates, triggers, items, users, scripts, config import/export (fork of mhajder/zabbix-mcp)
+- **bconsole-mcp/** - Real-time Bacula Director access via `bconsole` over SSH (in-house)
+- **bacularis-mcp/** - Read-only Bacula/Bareos backup reporting via the Bacularis REST API (in-house)
+- **unraid-mcp/** - Unraid GraphQL API: system, array, docker, VMs, plugins, notifications (third-party, jmagar/unraid-mcp)
+- **fastmcp/** - Vendored reference copy of the FastMCP framework, Comprehensive Python framework for building MCP servers and clients (Python ≥3.10); not imported by anything in this repo
 - **mcp_youtube_dlp/** - YouTube video/audio download MCP server (Python 3.13+)
 - **weather/** - Weather MCP server
-- **MCP-Builder-Stuff/** - Reference materials and SDK documentation
+- **MCP-Builder-Stuff/** - Vendored MCP Python SDK reference materials and documentation
 
 ## Common Commands
 
