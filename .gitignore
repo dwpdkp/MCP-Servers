@@ -70,3 +70,7 @@ zabbix-mcp/
 
 # Claude Code local settings (not the shared CLAUDE.md itself)
 .claude/settings.local.json
+
+# fastmcp is a vendored reference copy; .claude/ here is local Claude Code
+# state from working in that directory, not upstream fastmcp content
+fastmcp/.claude/
